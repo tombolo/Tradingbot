@@ -39,8 +39,8 @@ function Contact() {
                   <FaMapMarkerAlt className="text-yellow-700 h-7 w-7" />
                 </div>
                 <div>
-                  <p className="text-xs font-semibold">Mumias South rd Outering</p>
-                  <p className="text-xs font-semibold">Nairobi, Buruburu Junction</p>
+                  <p className="text-xs font-semibold">nairobi</p>
+                  <p className="text-xs font-semibold">Nairobi, kilimani</p>
                 </div>
               </div>
               {/* Embed your map here */}
@@ -64,7 +64,7 @@ function Contact() {
                   <FaEnvelope className="text-yellow-700 h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-sm">Email: sales@rubytech.co.ke</p>
+                  <p className="text-sm">Email: sales@finestburu.co.ke</p>
                 </div>
               </div>
               <div className="flex items-start mb-4">
@@ -72,7 +72,7 @@ function Contact() {
                   <FaPhoneAlt className="text-yellow-700 h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-sm">Phone:0720364557 | 07201715011</p>
+                  <p className="text-sm">Phone:072000000 | 072000000</p>
                 </div>
               </div>
               <div>
