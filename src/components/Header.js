@@ -69,7 +69,7 @@ function Header({products}) {
               onClick={() => router.push("/")}
               src={logo1}
               width={200}
-              height={80}
+              height={90}
               objectFit="contain"
               className="cursor-pointer"
             />
