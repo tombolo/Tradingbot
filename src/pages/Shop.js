@@ -12,10 +12,10 @@ function Shop() {
 
         <Header />
 
-        <div className="relative group w-1000 h-500 -mt-28">
+        <div className="relative group w-1000 h-500 md:-mt-28">
             <Image src={Banner2} className="w-full h-full inset-0 bg-black opacity-70" alt="Banner" />
             <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-                <h1 className="lg:text-4xl text-2xl mt-48 shadow-lg font-bold">SHOP</h1>
+                <h1 className="lg:text-4xl text-2xl md:mt-48 mt-28 shadow-lg font-bold">SHOP</h1>
             </div>
             <div className="absolute inset-0 opacity-40 group-opacity-10 transition-opacity duration-300"></div>
         </div>
