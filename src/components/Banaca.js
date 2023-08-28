@@ -10,7 +10,7 @@ function Banaca() {
 
       {/*BANACA 1 */}
 
-        <div className="bg-white md:w-1/2 p-3 m-1 rounded-md flex flex-row items-center justify-between opacity-100 hover:opacity-70 shadow-md">
+        <div className="bg-white md:w-1/2 p-3 m-1 rounded-md flex flex-row items-center justify-between opacity-100 shadow-md">
             <div className="p-2">
                 <h1>NEW ARRIVALS</h1>
                 <h1 className="text-xl font-bold py-2 mb-6">Trade City Version 2</h1>
@@ -29,7 +29,7 @@ function Banaca() {
 
          {/*BANACA 2 */}
 
-        <div className="bg-white md:w-1/2 p-3 m-1 rounded-md flex flex-row items-center justify-between opacity-100 hover:opacity-70 shadow-md">
+        <div className="bg-white md:w-1/2 p-3 m-1 rounded-md flex flex-row items-center justify-between opacity-100 shadow-md">
 
            <div style={{ width: '170px', height: '170px' }}>
               <Image src={Baca1} className="w-full h-full" />

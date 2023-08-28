@@ -69,10 +69,11 @@ function Header({products}) {
               onClick={() => router.push("/")}
               src={logo1}
               width={200}
-              height={90}
+              height={70}
               objectFit="contain"
-              className="cursor-pointer"
+              className="cursor-pointer sm:hidden"
             />
+        
           </div>
 
           {/*search*/}
@@ -128,6 +129,12 @@ function Header({products}) {
             <p className="link border-b border-white p-2" onClick={() => router.push("/Contact")}>
               Contact Us
             </p>
+            <p className="link border-b border-white p-2" onClick={() => router.push("/Contact")}>
+              Binary Classes
+            </p>
+            <p className="link border-b border-white p-2" onClick={() => router.push("/Contact")}>
+              Forex Signals
+            </p>
             <p className="link border-b border-white p-2" onClick={signOut}>
               Logout
             </p>
@@ -153,6 +160,13 @@ function Header({products}) {
               <p className="link hidden" onClick={() => router.push("/Contact")}>
                 Contact Us
               </p>
+              <p className="link hidden" onClick={() => router.push("/Contact")}>
+                Binary Classes
+              </p>
+              <p className="link hidden" onClick={() => router.push("/Contact")}>
+                Forex Signals
+              </p>
+              
               <p className="link hidden" onClick={signOut}>
                 Logout
               </p>
@@ -162,6 +176,8 @@ function Header({products}) {
           <p className="link hidden lg:inline-flex" onClick={() => router.push("/Shop")}>Shops</p>
           <p className="link hidden lg:inline-flex" onClick={() => router.push("/Blogpage")}>Blog</p>
           <p className="link hidden lg:inline-flex" onClick={() => router.push("/Contact")}>Contact Us</p>
+          <p className="link hidden lg:inline-flex" onClick={() => router.push("/classes")}>Binary Classes</p>
+          <p className="link hidden lg:inline-flex" onClick={() => router.push("/Contact")}>Forex Signals</p>
           <div onClick={signOut} className="cursor-pointer link">
               <p className="link hidden lg:inline-flex">
                 Logout
