@@ -69,7 +69,7 @@ function Header({products}) {
               onClick={() => router.push("/")}
               src={logo1}
               width={200}
-              height={70}
+              height={76}
               objectFit="contain"
               className="cursor-pointer sm:hidden"
             />
