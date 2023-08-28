@@ -129,7 +129,7 @@ function Header({products}) {
             <p className="link border-b border-white p-2" onClick={() => router.push("/Contact")}>
               Contact Us
             </p>
-            <p className="link border-b border-white p-2" onClick={() => router.push("/Contact")}>
+            <p className="link border-b border-white p-2" onClick={() => router.push("/classes")}>
               Binary Classes
             </p>
             <p className="link border-b border-white p-2" onClick={() => router.push("/Contact")}>
@@ -160,7 +160,7 @@ function Header({products}) {
               <p className="link hidden" onClick={() => router.push("/Contact")}>
                 Contact Us
               </p>
-              <p className="link hidden" onClick={() => router.push("/Contact")}>
+              <p className="link hidden" onClick={() => router.push("/classes")}>
                 Binary Classes
               </p>
               <p className="link hidden" onClick={() => router.push("/Contact")}>
