@@ -52,9 +52,9 @@ const LoginPage = () => {
   return (
     <div className="md:mt-28">
         <Header />
-    <div className="min-h-screen bg-gradient-to-r from-gray-100 to-gray-300 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r md:from-gray-100 md:to-gray-300 bg-white flex items-center justify-center">
         
-      <div className="bg-white p-6 rounded-lg shadow-md w-96 text-center items-center">
+      <div className="bg-white p-6 rounded-lg md:shadow-md w-96 text-center items-center">
 
       <div className=""> {/* Moved margin outside the logo */}
           <Image
