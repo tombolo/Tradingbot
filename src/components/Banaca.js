@@ -14,7 +14,7 @@ function Banaca() {
             <div className="p-2">
                 <h1>NEW ARRIVALS</h1>
                 <h1 className="text-xl font-bold py-2 mb-6">Trade City Version 2</h1>
-                <Link href="/product/19">
+                <Link href="/product/11">
                   <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6">
                     Shop Now
                   </a>
@@ -37,7 +37,7 @@ function Banaca() {
             <div className="flex flex-col p-2 justify-end items-end">
                 <h1>HOT SALES</h1>
                 <p className="text-xl font-bold py-2">CandleMine Version 2</p>
-                <Link href="/product/13">
+                <Link href="/product/12">
                   <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6">
                     Shop Now
                   </a>

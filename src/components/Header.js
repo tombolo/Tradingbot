@@ -92,7 +92,7 @@ function Header({products}) {
 
           {/*right*/}
           <div className="text-blue-900 flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
-            <div onClick={!session ? signIn: undefined} className="cursor-pointer link">
+            <div onClick={() => router.push("/login")} className="cursor-pointer link">
               <p className="hover:underline">
                 {session ? `Hello, ${session.user.name}` : "Sign In"}
               </p>

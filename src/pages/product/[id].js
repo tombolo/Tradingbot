@@ -109,9 +109,9 @@ const Product = () => {
                                   <div className="relative overflow-hidden top-1 flex items-center justify-center rounded-md md:flex md:justify-start ">
                                   <Image src={product.image} height={170} width={170} objectfit="contain" />
                                   </div>
-                            <h1 className="font-bold text-blue-900 text-xs mt-3">{product.title}</h1>
+                            <h1 className="font-bold text-blue-900 text-xs md:text-sm mt-3">{product.title}</h1>
                   
-                            <p className="text-xs my-1 transition duration-300 rounded-md lg:text-xs">{product.description}</p>
+                            <p className="my-1 md:text-sm text-xs transition duration-300 rounded-md">{product.description}</p>
 
                           <div className="flex flex-row items-center">
 
@@ -123,13 +123,13 @@ const Product = () => {
                                       <StarIcon key={i} className="h-4 w-4 text-yellow-500" />
                                     ))}
                                     </div>
-                                  <p className="text-xs">KSH{product.price}</p>
+                                  <p className="text-xs sm:text-sm">KSH{product.price}</p>
                                 </div>
 
                                 <div>
                                 <button
                                     onClick={() => (isInBasket ? removeItemFromBasket(product.id) : addItemToBasket(product.id))}
-                                    className={`flex-grow-0 flex-shrink-0 w-auto sm:w-auto rounded-md transition duration-200 m-5 text-xs px-1 py-1 ${
+                                    className={`flex-grow-0 flex-shrink-0 w-auto sm:w-auto rounded-md transition duration-200 m-5 text-xs md:text-sm px-1 py-1 md:px-4 md:py-3 ${
                                       isInBasket ? 'bg-gray-600 text-white hover:bg-gray-400' : 'bg-blue-900 text-white hover:bg-blue-600'
                                     }`}
                                   >
@@ -149,9 +149,9 @@ const Product = () => {
      {/*Description Part*/}
       <div className="relative m-2 bg-white border-yellow-900 p-2 rounded shadow-lg transition lg:w-full">
           <div className="flex flex-row justify-between items-center">
-            <p className="text-xs font-bold">Shipping to</p>
-            <select className="text-xs bg-transparent border-none focus:outline-none">
-              <option value="Nairobi, Umoja">Nairobi, Umoja</option>
+            <p className="text-xs md:text-sm font-bold">Shipping to</p>
+            <select className="text-xs md:text-sm bg-transparent border-none focus:outline-none">
+              <option value="Nairobi">Nairobi</option>
               <option value="Mombasa">Mombasa</option>
               <option value="Kisumu">Kisumu</option>
               {/* Add more options for different parts of the country */}
@@ -159,30 +159,30 @@ const Product = () => {
           </div>
 
           <div className="relative m-2 border-b-2 border-yellow-900">
-            <h1 className="text-xs font-bold text-blue-900 py-2">Fullfilled By Rubytech</h1>
-            <p className="text-xs">The product Ships from Rubytech local warehouse. Get it between date... to date...</p>
-            <p className="text-xs font-semibold text-blue-900 py-2">Free shipping for amount over KSH 20,000</p>
+            <h1 className="text-xs md:text-sm font-bold text-blue-900 py-2">Fullfilled By Finestburu</h1>
+            <p className="text-xs md:text-sm">The product has been examined by finestburu</p>
+            <p className="text-xs md:text-sm font-semibold text-blue-900 py-2">Free Mentorship for amount over KSH 20,000</p>
           </div>
 
 
           <div className="relative m-2 border-b-2 border-yellow-900">
-            <h1 className="text-xs font-semibold text-blue-900 py-2">Return policy</h1>
-            <p className="text-xs py-2">Easy Return, Quick Refund</p>
+            <h1 className="text-xs md:text-sm font-semibold text-blue-900 py-2">Return policy</h1>
+            <p className="text-xs md:text-sm py-2">Easy Return, Quick Refund</p>
           </div>
 
 
           <div className="relative m-2 border-b-2 border-yellow-900">
-            <h1 className="text-xs font-semibold text-blue-900 py-2">Shopping Security</h1>
+            <h1 className="text-xs md:text-sm font-semibold text-blue-900 py-2">Shopping Security</h1>
 
             <div className="flex justify-between items-center px-2 mb-2">
               <div className="flex-col text-xs">
-                  <p className="list-item">Safe Payments</p>
-                  <p className="list-item">Secure Privacy</p>
+                  <p className="list-item md:text-sm">Safe Payments</p>
+                  <p className="list-item md:text-sm">Secure Privacy</p>
               </div>
 
               <div className="flex flex-col text-xs">
-                  <p className="list-item">Secure Logistics</p>
-                  <p className="list-item">Purchase Protection</p>
+                  <p className="list-item md:text-sm">Secure Logistics</p>
+                  <p className="list-item md:text-sm">Purchase Protection</p>
               </div>
 
             </div>
@@ -192,8 +192,8 @@ const Product = () => {
 
           <div className="my-3 border-b-2 mt-5 border-gray-300">
           <div className="mb-5 flex flex-row justify-between items-center">
-            <p className="text-xs font-bold">Customer reviews</p>
-            <select className="text-xs bg-transparent border-none focus:outline-none">
+            <p className="text-xs font-bold md:text-sm">Customer reviews</p>
+            <select className="text-xs md:text-sm bg-transparent border-none focus:outline-none">
               <option value="Nairobi, Umoja">View All</option>
             </select>
           </div>

@@ -55,14 +55,19 @@ function classes() {
 
                     <div className="bg-gray-300 rounded-md lg:w-1/2 mb-3 p-1 flex flex-row justify-between">
                     <h2 className="text-xs font-bold ml-5 text-blue-900 my-2">DERIV ACCOUNT MANAGEMENT</h2>
-                    <button className=" bg-white rounded-sm px-2">Apply</button>
+                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white">Apply</button>
                     </div>
 
 
 
                     <div className="bg-gray-300 rounded-md lg:w-1/2 mb-5 p-1 flex flex-row justify-between">
                     <h2 className="text-xs font-bold ml-5 text-blue-900 my-2">PHYSICAL BINARY CLASSES</h2>
-                    <button className=" bg-white rounded-sm px-2">Apply</button>
+                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white">Apply</button>
+                    </div>
+
+                    <div className="bg-gray-300 rounded-md lg:w-1/2 mb-5 p-1 flex flex-row justify-between">
+                    <h2 className="text-xs font-bold ml-5 text-blue-900 my-2">ONLINE BINARY CLASSES</h2>
+                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white">Apply</button>
                     </div>
             </div>
 
