@@ -1,4 +1,4 @@
-require("dotenv").config();
+/*require("dotenv").config();
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
@@ -117,3 +117,5 @@ app.post("/callback",(req,res)=>{
 port = 8080 || process.env.PORT
 
 app.listen(port, () => console.log(`server is listening on port ${port}`))
+
+*/

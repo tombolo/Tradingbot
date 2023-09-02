@@ -1,4 +1,4 @@
-import axios from 'axios';
+/* import axios from 'axios';
 
 // export default async function handler(req,res){
 //     const token = await generateToken();
@@ -23,4 +23,4 @@ export async function generateToken(){
         console.error(error.message);
         throw err
     }
-}
+} */

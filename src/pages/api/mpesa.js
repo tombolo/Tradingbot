@@ -1,4 +1,4 @@
-import axios from 'axios';
+/*import axios from 'axios';
 import {generateToken} from "./tokencheck";
 
 export default async function handler(req,res){
@@ -47,4 +47,4 @@ export default async function handler(req,res){
             res.status(400).json(err.message)
         })
 
-}
+} */
