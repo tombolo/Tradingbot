@@ -125,7 +125,7 @@ export const MyShop = [
   {
     id: 10,
     title: 'TRADE CITY VERSION 3',
-    price: 105000,
+    price: 10500,
     description: 'This is a great tool for traders who want to capitalize on the opportunities in the financial markets. With its user-friendly interface, advanced trading features, and reliable performance, it is a great choice for traders of all levels.',
     category: 'Binary',
     image: Final7,
