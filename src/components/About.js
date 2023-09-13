@@ -2,12 +2,18 @@ import { LocationMarkerIcon, PhoneIcon, MailIcon } from '@heroicons/react/solid'
 import Banner2 from '../components/Myimages/banner2.jpg';
 import Image from 'next/image';
 import Blog3 from '../components/Myimages/blog3.jpg';
+import Video from '../components/Myimages/banner5.jpg';
 
 
 function About() {
   return (
-
-    <div className="flex flex-col lg:mx-2 rounded-md mt-4 lg:flex-row lg:items-center lg:justify-evenly bg-white flex-grow">
+    <div className="">
+      <div className="w-full mt-2 h-0">
+        <Image src={Video} className="inset-0 bg-black opacity-40" alt="Banner" />
+      </div>
+     
+    <div
+      className="flex flex-col lg:mx-2 rounded-md mt-4 lg:flex-row lg:items-center lg:justify-evenly flex-grow">
 
         <div  
            className=" m-2 border-gray-200 lg:w-1/4 lg:justify-center lg:border-b-0">
@@ -22,7 +28,7 @@ function About() {
             <Image src={Blog3} className="w-full h-full rounded-md" alt="Banner" />
             <div className="absolute inset-0 rounded-md">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white opacity-10 rounded-md"></div>
-              <a href="https://www.water-right.com/homeowner-resources/how-does-a-water-softener-work/" className="absolute bottom-0 left-0 right-0 py-3 px-4 flex items-center justify-center bg-gradient-to-t from-white via-white to-transparent rounded-b-md transition-transform duration-300 transform group-hover:translate-x-2">
+              <a href="https://deriv.com/" className="absolute bottom-0 left-0 right-0 py-3 px-4 flex items-center justify-center bg-gradient-to-t from-white via-white to-transparent rounded-b-md transition-transform duration-300 transform group-hover:translate-x-2">
                 <p className="text-blue-700 text-xs font-semibold animate-slide-horizontal">Read More</p>
                 <svg
                   className="animate-slide-horizontal w-6 h-6 ml-2 text-blue-700"
@@ -58,14 +64,14 @@ function About() {
                 <div className="bg-blue-300 rounded-full">
                     <PhoneIcon className="h-6 w-6 text-yellow-700 p-1" />
                 </div> 
-                <p className="text-xs mx-2">Phone: +254720000000</p>
+                <p className="text-xs mx-2">Phone: +254724381835</p>
             </div>
 
             <div className="flex lg:justify-center flex-row p-1">
                 <div className="bg-blue-300 rounded-full">
                     <MailIcon className="h-6 w-6 text-indigo-700 p-1" />
                 </div>
-                <p className="text-xs mx-2">sales@finestburu.co.ke</p>
+                <p className="text-xs mx-2">finestburu1@gmail.com</p>
             </div>
         </div>
 
@@ -86,6 +92,9 @@ function About() {
                     </div>
 
         </div>
+
+    </div>
+    
 
     </div>
   )

@@ -7,6 +7,12 @@ import Image from "next/image";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Spinner from '../components/Spinner';
+import db from '/firebase';
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import { useRouter } from 'next/router';
+
+
+
 
 const LoginPage = () => {
   const { data: session } = useSession();
@@ -18,6 +24,8 @@ const LoginPage = () => {
   const toggleSignUp = () => {
     setIsSigningUp((prev) => !prev);
   };
+  const router = useRouter();
+
 
   useEffect(() => {
     if (redirectToDashboard) {
@@ -25,7 +33,7 @@ const LoginPage = () => {
       const delay = 5000;
       const timer = setTimeout(() => {
         // Navigate to the dashboard after the delay
-        router.push("/dashboard");
+        router.push("/");
       }, delay);
 
       // Clean up the timer when the component unmounts or if the user navigates away
@@ -47,6 +55,28 @@ const LoginPage = () => {
       setIsLoading(false); // Hide the spinner
     }
   };
+
+  const auth = getAuth();
+
+const handleEmailSignUp = async () => {
+  setIsLoading(true);
+
+  try {
+    const email = document.querySelector('input[type="email"]').value;
+    const password = document.querySelector('input[type="password"]').value;
+
+    // Create a new user with email and password using the auth instance
+    await createUserWithEmailAndPassword(auth, email, password);
+
+    // Set the flag to redirect to the dashboard after the delay
+    setRedirectToDashboard(true);
+  } catch (error) {
+    // Handle any errors here
+    console.error('Email sign-up error:', error);
+    setIsLoading(false);
+  }
+};
+
 
   
   return (
@@ -174,7 +204,7 @@ const LoginPage = () => {
           <button
             className={`w-full bg-blue-500 hover:bg-blue-700 text-white py-2 rounded-md transition duration-300 ${
               !isSigningUp ? 'hidden' : ''
-            }`}
+            }`}  onClick={handleEmailSignUp}
           >
             Sign Up with Email
           </button>

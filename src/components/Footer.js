@@ -6,21 +6,17 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-white z-50">
 
-      <div className="bg-gray-200 flex lg:flex-row lg:items-center lg:justify-between flex-col">
-
-
-
-            
+      <div className="bg-gray-600 flex lg:flex-row lg:items-center lg:justify-between flex-col">
 
             <div className="py-2 lg:mx-12 flex lg:flex-row flex-col items-center">
 
               <div className="flex flex-row">
                   <div className="mx-4">
-                    <FaEnvelope size={40} className="icon text-blue-900" />
+                    <FaEnvelope size={40} className="icon text-blue-600" />
                   </div>
                   <div>
-                    <h1 className="text-sm font-semibold text-black">JOIN OUR NEWSLETTER</h1>
-                    <p className="text-xs text-black">Get The Lates Deals, Updates $ More</p>
+                    <h1 className="text-sm font-semibold text-white">JOIN OUR NEWSLETTER</h1>
+                    <p className="text-xs text-white">Get The Lates Deals, Updates $ More</p>
                   </div>
                 </div>
 
@@ -105,7 +101,7 @@ function Footer() {
             <p className="text-gray-400 text-xs my-2">My Orders</p>
             <p className="text-gray-400 text-xs">Wishlist</p>
             <p className="text-gray-400 text-xs my-2">Contact</p>
-            <p className="text-gray-400 text-xs">Return Policy</p>
+            
           </div>
 
           <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0">
@@ -114,7 +110,7 @@ function Footer() {
             <p className="text-gray-400 text-xs my-2">Affiliates</p>
             <p className="text-gray-400 text-xs">Advanced Search</p>
             <p className="text-gray-400 text-xs my-2">Terms $ Conditions</p>
-            <p className="text-gray-400 text-xs">Advanced Search</p>
+            
           </div>
 
           <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0">
