@@ -23,4 +23,4 @@ export async function generateToken(){
         console.error(error.message);
         throw err
     }
-} /*
+} */
