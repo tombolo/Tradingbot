@@ -4,7 +4,7 @@ import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white z-50">
+    <footer className=" text-white z-50 -mt-4 bg-transparent">
 
       <div className="bg-gray-600 flex lg:flex-row lg:items-center lg:justify-between flex-col">
 
@@ -127,7 +127,7 @@ function Footer() {
         </div>
 
         <div className="text-center mt-2 p-3">
-          <p className="text-gray-300 text-sm">&copy; 2023 Rubytech. All rights reserved.</p>
+          <p className="text-gray-300 text-sm">&copy; 2023 Finestburu. All rights reserved.</p>
         </div>
       </div>
     </footer>

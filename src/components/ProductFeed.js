@@ -13,7 +13,7 @@ function ProductFeed({ products }) {
 
   return (
     <div className="flex flex-wrap w-full md:ml-2 mb-2">
-      <div className="flex flex-row items-center justify-between overflow-x-auto bg-gray-100">
+      <div className="flex flex-row items-center justify-between overflow-x-auto bg-transparent">
         {/* First Row */}
         {firstRowProducts.map((product, index) => (
           <div className="m-1" key={product.id}>

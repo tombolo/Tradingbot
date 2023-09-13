@@ -12,14 +12,23 @@ import About from "../components/About";
 import Categories from "../components/Categories";
 import { getSession } from "next-auth/react";
 import Cookies from 'js-cookie';
+import Forex2 from '../components/Myimages/bot.png';
 
+
+
+const backgroundImageStyle = {
+  backgroundImage: `url(${Forex2.src})`, 
+  backgroundSize: 'cover', 
+  backgroundPosition: 'center',
+  backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+};
 
 export default function Home() {
 
-
-  
   return (
-    <div className="bg-gray-100">
+    <div className="w-full h-full" style={backgroundImageStyle}>
+  
+
       <Head>
         <title>Amazon 2.0</title>
       </Head> 
@@ -49,7 +58,7 @@ export default function Home() {
 
           {/* Product Feed */}
           <div className="">
-            <h1 className="flex mx-6 text-xl font-bold justify-center">Our Products</h1>
+            <h1 className="flex mx-6 text-xl font-bold justify-center text-white">Our Products</h1>
           <ProductFeed products={MyShop} />
           </div>
 
@@ -60,6 +69,8 @@ export default function Home() {
         <Control />
 
         <About />
+
+        <Banner />
           
         </div>
 
