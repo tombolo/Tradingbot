@@ -51,6 +51,8 @@ export default function Home() {
         <div className="mb-4">
           {/* Progress Bar */}
 
+          
+
           <Banaca />
           
       
@@ -71,6 +73,7 @@ export default function Home() {
         <About />
 
         <Banner />
+        <Services />
           
         </div>
 

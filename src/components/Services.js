@@ -1,45 +1,47 @@
-import React from 'react';
-import { FaHeadset, FaCreditCard, FaUndo, FaTags } from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Kioko5 from './Myimages/clients.png';
+import Forex1 from './Myimages/forex.gif';
+import Banner5 from '../components/Myimages/banner5.jpg';
+
+const backgroundImageStyle = {
+  backgroundImage: `url(${Banner5.src})`, // Set the background image to banner5.jpg
+  backgroundSize: 'cover', // You can adjust these properties as needed
+  backgroundPosition: 'center',
+  backgroundColor: 'rgba(0, 0, 0, 0.1)', 
+};
+
+
 
 function Services() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  
+
   return (
-    <div className="lg:mt-2 flex md:flex-row overflow-hidden flex-col bg-gray-200 mt-5 rounded-md shadow-md">
+    <div className="relative -mt-2 bg-white">
 
-      <div className="flex flex-row justify-between items-center">
-          <div className="flex flex-row p-3">
-            <FaHeadset className="h-10 w-10 p-1 text-blue-700" />
-            <div className="px-2">
-              <h1 className="font-bold text-sm">Support</h1>
-              <p className="lg:text-sm text-xs hidden md:block">We offer quality support Mon - Fri</p>
-            </div>
+
+      <div className="md:mt-0 mt-0 bg-transparent p-5 flex md:flex-row flex-col justify-between items-center">
+
+        <div className="md:w-3/6 w-full">
+          <h1 className="md:text-2xl text-lg text-black font-bold">We are your Gateway to Forex Success</h1>
+          <h2 className="md:text-lg text-sm text-gray-700 font-semibold">Trusted source for top-tier Forex trading insights, strategies, and resources. We are committed to helping you achieve your financial goals through the exciting world of Forex trading.</h2>
+        </div>
+
+        <div className=" bg-white md:w-2/6 w-full rounded-md mt-5">
+          <div className="h-64 w-64 md:ml-16">
+            <Image src={Forex1} loading="lazy" className="w-full h-full object-cover" alt="Banner" />
           </div>
+        </div>
 
-          <div className="flex flex-row p-3">
-            <FaCreditCard className="h-10 w-10 p-1 text-blue-700 text-xs" />
-            <div className="px-2">
-              <h1 className="font-bold text-sm">Payments</h1>
-              <p className="lg:text-sm text-xs hidden md:block">Delivered, When you receive.</p>
-            </div>
-          </div>
-      </div>
-
-      <div className="flex flex-row justify-between items-center">
-
-          <div className="flex flex-row p-3">
-            <FaUndo className="h-10 w-10 p-1 text-blue-700" />
-            <div className="px-2">
-              <h1 className="font-bold text-sm">Returns</h1>
-              <p className="lg:text-sm text-xs hidden md:block">Retail, A product return process.</p>
-            </div>
-          </div>
-
-          <div className="flex flex-row p-3">
-            <FaTags className="h-10 w-10 p-1 text-blue-700" />
-            <div className="px-2">
-              <h1 className="font-bold text-sm">Discounts</h1>
-              <p className="lg:text-sm text-xs hidden md:block">We offer discounts on Bulk orders.</p>
-            </div>
-          </div>
+    
 
       </div>
     </div>
