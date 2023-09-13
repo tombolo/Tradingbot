@@ -19,7 +19,7 @@ function Banner() {
       id: 1,
       name: 'Mercy Kimani',
       profileImage: 'final1.jpg',
-      message: 'Ive been using a binary deriv trading bot for a few months now, and I couldnt be happier with the results. The bot has consistently generated profits for me, and its done so with minimal effort on my part. Its like having a skilled trader working for me 24/7. I highly recommend it to anyone looking to automate their trading and increase their chances of success.',
+      message: 'Ive been using a binary deriv trading bot for a few months now, and I couldnt be happier with the results. The bot has consistently generated profits for me, and its done so with minimal effort on my part. Its like having a skilled trader working for me 24/7.',
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ function Banner() {
       id: 3,
       name: 'Alice Johnson',
       profileImage: 'final1.jpg',
-      message: 'Ive been skeptical about trading bots for a long time, but after trying out this binary deriv trading bot, my skepticism has turned into amazement. This bot is incredibly versatile and allows you to customize your trading strategy to your liking. Its adaptive and uses sophisticated algorithms to analyze the market, making it a powerful tool for generating profits. ',
+      message: 'Ive been skeptical about trading bots for a long time, but after trying out this binary deriv trading bot, my skepticism has turned into amazement. This bot is incredibly versatile and allows you to customize your trading strategy to your liking.',
     },
   ];
 
@@ -50,7 +50,7 @@ function Banner() {
 
       
 
-      <div className="md:w-1/2 bg-black h-64 rounded-md">
+      <div className="md:w-1/2 w-full bg-black h-64 rounded-md md:-mt-10">
         <Carousel
           autoPlay={true}
           infiniteLoop={true}
@@ -63,7 +63,7 @@ function Banner() {
             <div key={review.id}>
               <div className="flex justify-center items-center h-64 flex-col">
               <div className="mr-5">
-                    <div>
+                    <div className="mt-2">
                       <Image
                         src={final1}
                         loading="lazy"

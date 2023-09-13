@@ -23,8 +23,8 @@ function About() {
 
         <div  
            className=" m-2 border-gray-200 lg:w-1/4 lg:justify-center lg:border-b-0">
-            <h1 className="flex lg:justify-center text-lg font-bold text-white p-1">About Us</h1>
-            <p className=" flex lg:justify-center text-sm p-1 lg:items-center text-white">At Trade with FinestBuru, we're dedicated to revolutionizing binary trading. With a team of seasoned experts and cutting-edge technology, we aim to empower traders of all levels with transparent, efficient, and user-friendly trading solutions. Our mission is to provide a safe and secure platform, fostering financial growth and education.</p>
+            <h1 className="flex lg:justify-center text-sm md:text-lg font-bold text-white p-1">About Us</h1>
+            <p className=" flex lg:justify-center text-xs md:text-sm p-1 lg:items-center text-white">At Trade with FinestBuru, we're dedicated to revolutionizing binary trading. With a team of seasoned experts and cutting-edge technology, we aim to empower traders of all levels with transparent, efficient, and user-friendly trading solutions. Our mission is to provide a safe and secure platform, fostering financial growth and education.</p>
         </div>
 
         
@@ -58,31 +58,31 @@ function About() {
 
 
         <div className="m-2 border-b-2 border-gray-200 lg:w-1/4 lg:border-b-0 -mt-2 md:mt-0">
-            <h1 className=" font-bold text-white p-1 flex lg:justify-center md:text-lg">Our Location & Contact Details</h1>
+            <h1 className=" font-bold text-white p-1 flex lg:justify-center text-sm md:text-lg">Our Location & Contact Details</h1>
             <div className=" flex lg:justify-center flex-row p-1">
                 <div className="bg-blue-300 rounded-full">
                    <LocationMarkerIcon className="h-6 w-6 text-red-500 p-1" />
                 </div>
-                <p className="md:text-sm mx-2 text-white">Visit us Today in Buruburu near Outering</p>
+                <p className="md:text-sm text-xs mx-2 text-white">Visit us Today in Buruburu near Outering</p>
             </div>
 
             <div className="flex flex-row p-1 lg:justify-center">
                 <div className="bg-blue-300 rounded-full">
                     <PhoneIcon className="h-6 w-6 text-yellow-700 p-1" />
                 </div> 
-                <p className="md:text-sm mx-2 text-white">Phone: +254724381835</p>
+                <p className="md:text-sm mx-2 text-xs text-white">Phone: +254724381835</p>
             </div>
 
             <div className="flex lg:justify-center flex-row p-1">
                 <div className="bg-blue-300 rounded-full">
                     <MailIcon className="h-6 w-6 text-indigo-700 p-1" />
                 </div>
-                <p className="md:text-sm mx-2 text-white">finestburu1@gmail.com</p>
+                <p className="md:text-sm text-xs mx-2 text-white">finestburu1@gmail.com</p>
             </div>
         </div>
 
         <div className="m-2 border-b-2 border-gray-200 lg:w-1/4 lg:border-b-0">
-        <h1 className="font-bold text-white p-1 flex lg:justify-center text-sm">Business Hours</h1>
+        <h1 className="font-bold text-white p-1 flex lg:justify-center text-sm text-xs">Business Hours</h1>
 
                     <div className="flex flex-row items-center justify-between p-1 lg:flex-col lg:justify-center">
 
