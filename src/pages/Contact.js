@@ -64,7 +64,7 @@ function Contact() {
                   <FaEnvelope className="text-yellow-700 h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-sm">Email: sales@finestburu.co.ke</p>
+                  <p className="text-sm">Email: finestburu1@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start mb-4">
@@ -72,7 +72,7 @@ function Contact() {
                   <FaPhoneAlt className="text-yellow-700 h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-sm">Phone:072000000 | 072000000</p>
+                  <p className="text-sm">Phone:0724381835</p>
                 </div>
               </div>
               <div>
