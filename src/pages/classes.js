@@ -27,6 +27,15 @@ function classes() {
     localStorage.setItem('basketItems', JSON.stringify(items));
   }, [items]);
 
+  const createCheckoutSession = async (classTitle) => {
+    // Open WhatsApp with the products in the basket
+    const productNames = items.map(item => item.title).join("%0A");
+    const message = `I want to subscribe for the following classes:%0A%0A${classTitle}`;
+    const whatsappLink = `https://wa.me/254724381835?text=${message}`;
+
+    window.open(whatsappLink, "_blank");
+  };
+
   return (
     <div>
       <Header />
@@ -55,19 +64,19 @@ function classes() {
 
                     <div className="bg-gray-300 rounded-md lg:w-1/2 mb-3 p-1 flex flex-row justify-between">
                     <h2 className="text-xs font-bold ml-5 text-blue-900 my-2">DERIV ACCOUNT MANAGEMENT</h2>
-                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white">Apply</button>
+                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white" onClick={() => createCheckoutSession('DERIV ACCOUNT MANAGEMENT')}>Apply</button>
                     </div>
 
 
 
                     <div className="bg-gray-300 rounded-md lg:w-1/2 mb-5 p-1 flex flex-row justify-between">
                     <h2 className="text-xs font-bold ml-5 text-blue-900 my-2">PHYSICAL BINARY CLASSES</h2>
-                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white">Apply</button>
+                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white" onClick={() => createCheckoutSession('PHYSICAL BINARY CLASSES')}>Apply</button>
                     </div>
 
                     <div className="bg-gray-300 rounded-md lg:w-1/2 mb-5 p-1 flex flex-row justify-between">
                     <h2 className="text-xs font-bold ml-5 text-blue-900 my-2">ONLINE BINARY CLASSES</h2>
-                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white">Apply</button>
+                    <button className=" bg-white rounded-sm px-2 text-sm hover:bg-blue-900 hover:text-white" onClick={() => createCheckoutSession('ONLINE BINARY CLASSES')}>Apply</button>
                     </div>
             </div>
 

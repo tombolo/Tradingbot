@@ -60,7 +60,7 @@ export default function Home() {
 
           {/* Product Feed */}
           <div className="">
-            <h1 className="flex mx-6 text-xl font-bold justify-center text-white">Our Products</h1>
+            <h1 className="flex mx-6 text-xl font-bold justify-center text-white my-2">Our Products</h1>
           <ProductFeed products={MyShop} />
           </div>
 

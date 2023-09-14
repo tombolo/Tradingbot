@@ -1,10 +1,20 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import Forex2 from '../components/Myimages/bot.png';
+
+
+
+const backgroundImageStyle = {
+  backgroundImage: `url(${Forex2.src})`, 
+  backgroundSize: 'cover', 
+  backgroundPosition: 'center',
+  backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+};
 
 function Footer() {
   return (
-    <footer className=" text-white z-50 -mt-4 bg-transparent">
+    <footer className=" text-white z-50 -mt-4 w-full h-full" style={backgroundImageStyle}>
 
       <div className="bg-gray-600 flex lg:flex-row lg:items-center lg:justify-between flex-col">
 
