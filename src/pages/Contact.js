@@ -28,7 +28,7 @@ function Contact() {
   return (
     <div>
       <Header />
-      <div className="bg-gray-100 py-12 mt-16 md:mt-24">
+      <div className="bg-gray-100 py-12 mt-20 md:mt-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Map Location */}

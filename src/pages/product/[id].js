@@ -101,7 +101,7 @@ const Product = () => {
     <div>
       <Header />
 
-    <div className="lg:flex lg:flex-row lg:mt-36 mt-28">
+    <div className="lg:flex lg:flex-row lg:mt-36 mt-32">
       {/*Product Part*/}
                 <div className="relative m-2 bg-white z-20 p-2 rounded-md shadow-lg md:w-1/2 border-yellow-900 mx-4">
                             <p className="absolute top-2 right-2 text-gray-400 text-xs z-50">{product.category}</p>
