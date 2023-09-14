@@ -68,7 +68,7 @@ function Header({products}) {
             <Image
               onClick={() => router.push("/")}
               src={logo1}
-              width={170}
+              width={150}
               height={70}
               objectFit="contain"
               className="cursor-pointer sm:hidden"
@@ -77,7 +77,7 @@ function Header({products}) {
           </div>
 
           <div className="md:hidden">
-             <SearchIcon className="h-6 text-blue-900" />
+             <SearchIcon className="h-6 ml-6 text-blue-900" />
           </div>
 
           {/*search*/}
