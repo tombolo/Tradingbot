@@ -63,17 +63,21 @@ function Header({products}) {
     <div className="fixed top-0 left-0 w-full z-50 bg-white">
       <header>
         {/*top nav*/}
-        <div className="flex items-center p-1 py-2">
+        <div className="flex items-center">
           <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
             <Image
               onClick={() => router.push("/")}
               src={logo1}
-              width={200}
-              height={76}
+              width={170}
+              height={70}
               objectFit="contain"
               className="cursor-pointer sm:hidden"
             />
         
+          </div>
+
+          <div className="md:hidden">
+             <SearchIcon className="h-6 text-blue-900" />
           </div>
 
           {/*search*/}
@@ -92,12 +96,7 @@ function Header({products}) {
 
           {/*right*/}
           <div className="text-blue-900 flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
-            <div onClick={() => router.push("/login")} className="cursor-pointer link">
-              <p className="hover:underline">
-                {session ? `Hello, ${session.user.name}` : "Sign In"}
-              </p>
-              <p className="font-extrabold md:text-sm">Account & Lists</p>
-            </div>
+            
 
             <div onClick={() => router.push("/order")} className="cursor-pointer link">
               <p>Returns</p>

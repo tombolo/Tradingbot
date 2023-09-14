@@ -101,8 +101,8 @@ function Footer() {
           <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0">
             <h3 className="text-xs font-bold my-2">Finestburu Company</h3>
             <p className="text-gray-400 text-xs">Kilimani, Nairobi</p>
-            <p className="text-gray-400 text-xs my-2">Phone: +254720100000</p>
-            <p className="text-gray-400 text-xs">Email: sales@finestburu.co.ke</p>
+            <p className="text-gray-400 text-xs my-2">Phone: +254724381835</p>
+            <p className="text-gray-400 text-xs">Email: finestburu1@gmail.com</p>
           </div>
 
           <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0 hidden lg:block">
