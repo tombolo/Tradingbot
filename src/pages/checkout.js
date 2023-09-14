@@ -38,7 +38,7 @@ function Checkout() {
     <div className="bg-gray-100 -mt-9 md:mt-0">
       <Header />
 
-      <main className="lg:flex max-w-screen-2xl mx-auto mt-32 lg:mt-32 z-10">
+      <main className="lg:flex max-w-screen-2xl mx-auto mt-32 lg:mt-36 z-10">
         {/*Left*/}
         <div className="flex-grow shadow-sm items-center">
           <div className="border-b-2 border-yellow-900 flex items-center mx-3">
@@ -81,13 +81,13 @@ function Checkout() {
                 <div className="lg:flex lg:mt-2 lg:fixed lg:p-6 z-10">
                   <button
                     onClick={createCheckoutSession}
-                    disabled={!session}
+                
                     className={`bg-blue-900 rounded-md flex-shrink-0 w-auto sm:w-auto py-1.5 px-2 hover:bg-blue-600 transition duration-200 m-1 text-white mt-2 z-10 ${
                       !session &&
-                      "from-gray-300 to-gray-500 border-gray-200 text-gray-300 cursor-not-allowed"
+                      "from-gray-300 to-gray-500 border-gray-200 text-gray-300 "
                     }`}
                   >
-                    {!session ? "Sign in to checkout" : "Proceed to checkout"}
+                    {"Proceed to checkout"}
                   </button>
                 </div>
               </div>
