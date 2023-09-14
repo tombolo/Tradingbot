@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 function Banaca() {
   return (
-    <div className="md:relative flex md:flex-row md:justify-evenly flex-col mt-20 md:mt-36 bg-white md:bg-transparent">
+    <div className="md:relative flex md:flex-row md:justify-evenly flex-col mt-20 md:mt-36 bg-white">
 
       {/*BANACA 1 */}
 
