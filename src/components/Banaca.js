@@ -27,7 +27,7 @@ function Banaca() {
                 </Link>
             </div>
 
-            <div style={{ width: '250px', height: '250px' }} className="mt-1">
+            <div style={{ width: '230px', height: '230px' }} className="mt-1">
               <Image src={Baca2} className="w-full h-full rounded-md" />
             </div>
           </div>
