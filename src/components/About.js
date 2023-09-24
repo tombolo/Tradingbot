@@ -63,7 +63,7 @@ function About() {
                 <div className="bg-blue-300 rounded-full">
                    <LocationMarkerIcon className="h-6 w-6 text-red-500 p-1" />
                 </div>
-                <p className="md:text-sm text-xs mx-2 text-white">Visit us Today in Buruburu near Outering</p>
+                <p className="md:text-sm text-xs mx-2 text-white">Visit us Today in Kilimani</p>
             </div>
 
             <div className="flex flex-row p-1 lg:justify-center">

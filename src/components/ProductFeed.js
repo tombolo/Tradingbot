@@ -8,7 +8,7 @@ import { FaHeadset, FaCreditCard, FaUndo, FaTags } from 'react-icons/fa';
 
 
 function ProductFeed({ products }) {
-  const firstRowProducts = products.slice(4, 10);
+  const firstRowProducts = products.slice(11, 22);
   
 
   return (

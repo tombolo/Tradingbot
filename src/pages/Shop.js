@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProductFeed from "../components/ProductFeed";
+import Banaca from "../components/Banaca";
 import { MyShop } from '../components/MyShop';
 import Banner2 from '../components/Myimages/banner2.jpg';
 import Image from 'next/image';
@@ -21,9 +22,9 @@ function Shop() {
         </div>
 
 
-        <div className="md:-mt-72 -mt-20">
+        <div className="md:-mt-96 -mt-20 mb-32">
 
-        <ProductFeed products={MyShop} />
+        <Banaca />
 
         </div>
 

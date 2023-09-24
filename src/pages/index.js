@@ -52,7 +52,9 @@ export default function Home() {
           {/* Progress Bar */}
 
           
-
+          <div className="md:mt-32 bg-white">
+             <h2 className="text-black text-2xl font-bold text-center justify-center">Our Products</h2>
+         </div>
           <Banaca />
           
       
@@ -60,7 +62,7 @@ export default function Home() {
 
           {/* Product Feed */}
           <div className="">
-            <h1 className="flex mx-6 text-xl font-bold justify-center text-white my-2">Our Products</h1>
+            
           <ProductFeed products={MyShop} />
           </div>
 

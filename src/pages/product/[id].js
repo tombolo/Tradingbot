@@ -107,7 +107,7 @@ const Product = () => {
                             <p className="absolute top-2 right-2 text-gray-400 text-xs z-50">{product.category}</p>
 
                                   <div className="relative overflow-hidden top-1 flex items-center justify-center rounded-md md:flex md:justify-start ">
-                                  <Image src={product.image} height={170} width={170} objectfit="contain" />
+                                  <Image src={product.image} height={170} width={200} objectfit="contain" className="rounded-md" />
                                   </div>
                             <h1 className="font-bold text-blue-900 text-xs md:text-sm mt-3">{product.title}</h1>
                   
