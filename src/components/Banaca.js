@@ -35,7 +35,7 @@ function Banaca() {
 
          {/*BANACA 2 */}
 
-        <div className="bg-transparent md:bg-white md:w-1/2 md:h-56 p-3 m-1 -mt-14 md:mt-1 rounded-md flex flex-row justify-between opacity-100 md:shadow-md md:border-2 border-gray-400">
+        <div className="bg-transparent md:bg-white md:w-1/2 md:h-56 p-3 m-1 -mt-9 md:mt-1 rounded-md flex flex-row justify-between opacity-100 md:shadow-md md:border-2 border-gray-400">
 
         <div className="rounded-md" style={{ width: '220px', height: '220px' }}>
   <Image src={Baca1} className="w-full h-full rounded-md" />
