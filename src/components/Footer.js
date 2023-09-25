@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaTiktok } from 'react-icons/fa';
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import Forex2 from '../components/Myimages/bot.png';
 
@@ -43,33 +43,11 @@ function Footer() {
 
 
             <div className="flex lg:py-10 md:mt-0 lg:mx-12 py-2 justify-center -mt-5">
+      
+      
       <div className="icon-wrapper px-2">
         <a
-          href="#"
-          className="icon-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="icon-circle bg-blue-700 rounded-full">
-            <FaFacebook size={25} className="icon p-1" />
-          </div>
-        </a>
-      </div>
-      <div className="icon-wrapper px-2">
-        <a
-          href="#"
-          className="icon-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="icon-circle bg-blue-400 rounded-full">
-            <FaTwitter size={25} className="icon p-1" />
-          </div>
-        </a>
-      </div>
-      <div className="icon-wrapper px-2">
-        <a
-          href="#"
+          href="https://instagram.com/finestburu?igshid=NzZlODBkYWE4Ng=="
           className="icon-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -81,14 +59,14 @@ function Footer() {
       </div>
       <div className="icon-wrapper px-2">
         <a
-          href="#"
+          href="https://www.tiktok.com/@finestburu?_t=8fzCRJKYlBF&_r=1"
           className="icon-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="icon-circle bg-blue-700 rounded-full">
-            <FaLinkedin size={25} className="icon p-1" />
-          </div>
+          <div className="icon-circle bg-black border-white rounded-full">
+           <FaTiktok size={25} className="icon p-1 text-white" />
+         </div>
         </a>
       </div>
     </div>
