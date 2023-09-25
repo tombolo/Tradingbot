@@ -18,8 +18,8 @@ function Banaca() {
         <div className="bg-transparent md:bg-white md:w-1/2 md:h-56 p-3 m-1 rounded-md flex flex-row justify-between opacity-100 md:shadow-md md:border-2 border-gray-400">
             <div className="p-2">
                 <h1>NEW ARRIVALS</h1>
-                <h1 className="font-bold text-lg md:text-xl py-2 mb-0">Deriv Killer 1.0</h1>
-                <p className="text-lg md:text-xl font-semibold py-2 mb-5">KSH 10,000</p>
+                <h1 className="font-bold text-lg md:text-xl py-2">Deriv Killer 1.0</h1>
+                <p className="text-lg md:text-xl font-semibold py-2 mb-2 md:mb-5 -mt-4">KSH 10,000</p>
                 <Link href="/product/4">
                   <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6">
                     Shop Now
@@ -27,7 +27,7 @@ function Banaca() {
                 </Link>
             </div>
 
-            <div style={{ width: '200px', height: '200px' }} className="mt-1">
+            <div style={{ width: '180px', height: '180px' }} className="mt-1">
               <Image src={Baca2} className="w-full h-full rounded-md" />
             </div>
           </div>
@@ -54,9 +54,9 @@ function Banaca() {
             <div className="flex flex-col p-2">
                 <h1>HOT SALES</h1>
                 <p className="md:text-xl text-lg font-bold py-2">Deriv Killer 2.0</p>
-                <p className="md:text-xl text-lg font-semibold py-2">KSH 15,000</p>
+                <p className="md:text-xl text-lg font-semibold -mt-2">KSH 15,000</p>
                 <Link href="/product/3">
-                  <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6 flex items-center justify-center">
+                  <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-1 md:mt-6 flex items-center justify-center">
                     Shop Now
                   </a>
                 </Link>
