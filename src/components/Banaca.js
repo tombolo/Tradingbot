@@ -27,7 +27,7 @@ function Banaca() {
                 </Link>
             </div>
 
-            <div style={{ width: '220px', height: '220px' }} className="mt-1">
+            <div style={{ width: '200px', height: '200px' }} className="mt-1">
               <Image src={Baca2} className="w-full h-full rounded-md" />
             </div>
           </div>
@@ -37,7 +37,7 @@ function Banaca() {
 
         <div className="bg-transparent md:bg-white md:w-1/2 md:h-56 p-3 m-1 -mt-6 md:mt-1 rounded-md flex flex-row justify-between opacity-100 md:shadow-md md:border-2 border-gray-400">
 
-        <div className="rounded-md" style={{ width: '220px', height: '220px' }}>
+        <div className="rounded-md" style={{ width: '180px', height: '178px' }}>
   <Image src={Baca1} className="w-full h-full rounded-md" />
 
   {/* Add a media query to reduce size on small screens */}
