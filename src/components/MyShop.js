@@ -6,7 +6,7 @@ export const MyShop = [
   
   {
     id: 1,
-    title: 'Buru Version 1',
+    title: 'Deriv Killer 1.0',
     price: 105000,
     description: 'This is a great tool for traders who want to capitalize on the opportunities in the financial markets. With its user-friendly interface, advanced trading features, and reliable performance, it is a great choice for traders of all levels.',
     category: 'Binary',
@@ -17,7 +17,7 @@ export const MyShop = [
   },
   {
     id: 2,
-    title: 'Buru Version 2',
+    title: 'Deriv Killer 2.0',
     price: 105000,
     description: 'This is a great tool for traders who want to capitalize on the opportunities in the financial markets. With its user-friendly interface, advanced trading features, and reliable performance, it is a great choice for traders of all levels.',
     category: 'Binary',
@@ -28,7 +28,7 @@ export const MyShop = [
   },
   {
     id: 3,
-    title: 'Buru Version 2',
+    title: 'Deriv Killer 2.0',
     price: 15000,
     description: 'This is a great tool for traders who want to capitalize on the opportunities in the financial markets. With its user-friendly interface, advanced trading features, and reliable performance, it is a great choice for traders of all levels.',
     category: 'Binary',
@@ -39,7 +39,7 @@ export const MyShop = [
   },
   {
     id: 4,
-    title: 'Buru Version 1',
+    title: 'Deriv Killer 1.0',
     price: 10000,
     description: 'This is a great tool for traders who want to capitalize on the opportunities in the financial markets. With its user-friendly interface, advanced trading features, and reliable performance, it is a great choice for traders of all levels.',
     category: 'Binary',
