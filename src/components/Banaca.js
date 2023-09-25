@@ -7,7 +7,7 @@ import Link from 'next/link';
 function Banaca() {
   return (
 
-    <div className="md:mt-10">
+    <div className="md:mt-6">
        
     <div className="md:relative flex md:flex-row md:justify-evenly flex-col mt-20 md:mt-2 bg-white md:bg-transparent">
 
@@ -56,7 +56,7 @@ function Banaca() {
                 <p className="md:text-xl text-lg font-bold py-2">Deriv Killer 2.0</p>
                 <p className="md:text-xl text-lg font-semibold py-2">KSH 15,000</p>
                 <Link href="/product/3">
-                  <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6 items-center">
+                  <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6 flex items-center justify-center">
                     Shop Now
                   </a>
                 </Link>
