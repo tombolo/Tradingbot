@@ -97,45 +97,7 @@ function Footer() {
 
 
       <div>
-        <div className="container py-4 px-4 flex flex-col justify-between text-center lg:flex lg:flex-row">
-          <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0">
-            <h3 className="text-xs font-bold my-2">Finestburu Company</h3>
-            <p className="text-gray-400 text-xs">Kilimani, Nairobi</p>
-            <p className="text-gray-400 text-xs my-2">Phone: +254724381835</p>
-            <p className="text-gray-400 text-xs">Email: finestburu1@gmail.com</p>
-          </div>
-
-          <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0 hidden lg:block">
-            <h3 className="text-xs font-bold my-2">MY ACCOUNT</h3>
-            <p className="text-gray-400 text-xs">Login / Register</p>
-            <p className="text-gray-400 text-xs my-2">My Orders</p>
-            <p className="text-gray-400 text-xs">Wishlist</p>
-            <p className="text-gray-400 text-xs my-2">Contact</p>
-            
-          </div>
-
-          <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0">
-            <h3 className="text-xs font-bold my-2">Our Services</h3>
-            <p className="text-gray-400 text-xs">Shipping $ Returns</p>
-            <p className="text-gray-400 text-xs my-2">Affiliates</p>
-            <p className="text-gray-400 text-xs">Advanced Search</p>
-            <p className="text-gray-400 text-xs my-2">Terms $ Conditions</p>
-            
-          </div>
-
-          <div className="text-center md:text-left border-b-2 border-blue-900 lg:border-b-0">
-            <h3 className="text-xs font-bold my-2">SUPPORT</h3>
-            <p className="text-gray-400 text-xs my-2">General Support</p>
-            <p className="text-gray-400 text-xs">Terms & Conditions</p>
-          </div>
-
-          
-
-
-
-
-        </div>
-
+        
         <div className="text-center mt-2 p-3">
           <p className="text-gray-300 text-sm">&copy; 2023 Finestburu. All rights reserved.</p>
         </div>

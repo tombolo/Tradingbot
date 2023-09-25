@@ -19,7 +19,7 @@ function About() {
     <div className="w-full h-full" style={backgroundImageStyle}>
       
      
-    <div className="flex flex-col lg:mx-2 rounded-md mt-4 lg:flex-row lg:items-center lg:justify-evenly flex-grow">
+    <div className="flex flex-col lg:mx-2 rounded-md -mt-3 lg:flex-row lg:items-center lg:justify-evenly flex-grow">
 
         <div  
            className=" m-2 border-gray-200 lg:w-1/4 lg:justify-center lg:border-b-0">

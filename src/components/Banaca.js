@@ -18,7 +18,7 @@ function Banaca() {
         <div className="bg-transparent md:bg-white md:w-1/2 md:h-56 p-3 m-1 rounded-md flex flex-row justify-between opacity-100 md:shadow-md md:border-2 border-gray-400">
             <div className="p-2">
                 <h1>NEW ARRIVALS</h1>
-                <h1 className="text-xl font-bold py-2 mb-0">Buru Version 1</h1>
+                <h1 className="text-xl font-bold py-2 mb-0">Deriv Killer 1.0</h1>
                 <p className="text-xl font-semibold py-2 mb-5">KSH 10,000</p>
                 <Link href="/product/4">
                   <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6">
@@ -53,7 +53,7 @@ function Banaca() {
 
             <div className="flex flex-col p-2">
                 <h1>HOT SALES</h1>
-                <p className="text-xl font-bold py-2">Buru Version 2</p>
+                <p className="text-xl font-bold py-2">Deriv Killer 2.0</p>
                 <p className="text-xl font-semibold py-2">KSH 15,000</p>
                 <Link href="/product/3">
                   <a className="bg-blue-900 text-white rounded-full p-2 text-sm mt-6 items-center">
